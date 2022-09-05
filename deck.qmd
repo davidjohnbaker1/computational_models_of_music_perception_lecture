@@ -1,0 +1,45 @@
+---
+title: "Computational Models of Music Perception and Cognition"
+author: "David John Baker"
+subtitle: "13th October 2022"
+format: revealjs
+editor: visual
+---
+
+## Predicting What Happens
+
+::: {.incremental .column width="65%"}
+If I were to stand on top of the [Leaning Tower of Pisa](https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa) and [drop both a bowling ball and a marble](https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment) from the top at the same time...
+
+* What would happen? 
+* What assumptions would have to be true for that to happen?
+* How do we know?
+
+:::
+
+::: {.column width="35%"}
+![](img/The_Leaning_Tower_of_Pisa_SB.jpeg.jpeg){.absolute top=0 left=700}
+:::
+
+::: {.notes}
+- Read Slide 
+- Ask 
+https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv
+:::
+
+## Predictions, Formalized
+
+::: {.incremental .column width="50%"}
+
+:::
+
+::: {.column width="35%"}
+![](img/Pisa_experiment.png){.absolute top=100 left=700}
+:::
+
+:::{.notes}
+If you’re not familiar with the story, supposedly between 1589 and 1592, Galileo Galilei is said to have dropped two spheres of different mass from a top the Leaning Tower of Pisa in order to demonstrate that all objects fall with the same acceleration.
+:::
+
+
+
