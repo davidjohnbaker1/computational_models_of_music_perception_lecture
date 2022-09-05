@@ -6,14 +6,19 @@ format: revealjs
 editor: visual
 ---
 
-## Predicting What Happens
+## Starting with a Question 
 
 ::: {.incremental .column width="65%"}
-If I were to stand on top of the [Leaning Tower of Pisa](https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa) and [drop both a bowling ball and a marble](https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment) from the top at the same time...
 
-* What would happen? 
-* What assumptions would have to be true for that to happen?
-* How do we know?
+What are some famous **scientific** theories? 
+
+Theory of ...
+
+* Evolution 
+* Supply and Demand
+* Relativity
+* ITPRA -- Musical Expectancy
+* BRECVEMA -- Musical Emotions
 
 :::
 
@@ -22,24 +27,183 @@ If I were to stand on top of the [Leaning Tower of Pisa](https://en.wikipedia.or
 :::
 
 ::: {.notes}
-- Read Slide 
-- Ask 
-https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv
+I want to start with a question for the whole class, just to get an idea of people's background and familiarity with the idea of theories, in the scientific sense. 
+
+Can anyone give me the name of a some famous scientific theories? I want at least five of them. And bonus points if anyone can name any music related ones. 
+
+And by theory I mean an explanation of the natural world that explains how or why the world is the way that it is. 
+
+- GIVE Class moment to respond 
+
+When done, click to review some of the ones you'd like to focus on in case class gets off track.
+
 :::
 
-## Predictions, Formalized
+## Scientific Theory 
 
-::: {.incremental .column width="50%"}
+::: {.incremental .column width="60%"}
+
+A scientific theory is an explanation about the natural world that explains how or why the world is the way that it is.
+
+* Often make specific predictions about the world 
+* Say _**what**_ will happen _**when**_ under what _**conditions**_
+* What is one prediction offered by the theory of evolution?
 
 :::
 
-::: {.column width="35%"}
-![](img/Pisa_experiment.png){.absolute top=100 left=700}
+
+::: {.column width="40%"}
+![](img/The_Leaning_Tower_of_Pisa_SB.jpeg.jpeg){.absolute top=0 left=700}
 :::
+
+
+::: {.notes}
+Different than how the word **theory** is used in the context of **music**.
+We can return to that if you'd like. 
+
+But what is important to be on the same page about in terms of definitions is... bullet points.
+
+And we as critically thinking intelligent humans deduce these types of predictions from reading the work of scientists such as Charles Darwin in books they write. 
+
+:::
+
+
+## Fact, Laws, and Theories I
+
+:::{.incremental .column width="60%"}
+Scientific laws are not the same as scientific theories.
+
+* Theory:  Explains how and why 
+* Fact: Basic Observation
+* Law: Relationship between observations
+* **Theories are used to explain and interpret facts**
+:::
+
+
+## Fact, Laws, and Theories II
+
+:::{.incremental .column width="60%"}
+
+> Think, pair, share: Turn to your neighbor and explain to them the difference between a fact, a law, and a theory. Take two minutues. Come up with an example from an example not yet mentioned in today's lecture. 
+
+:::
+
+## Law of Gravitation
+
+$$F = G \frac{m_1 m_2}{r^2}$$
+
+$F$: Force 
+
+$G$: Gravitational Constant
+
+$m_1$: Mass of Object 1
+
+$m_2$: Mass of Object 2
+
+$r$: Distance Between Object 1 and Object 2
+
+
 
 :::{.notes}
-If you’re not familiar with the story, supposedly between 1589 and 1592, Galileo Galilei is said to have dropped two spheres of different mass from a top the Leaning Tower of Pisa in order to demonstrate that all objects fall with the same acceleration.
+One of the examples that might have been brought up before is Newton's law of gravity.
+
+For those unfamiliar, it's a mathmatical formula that predicts what the force between two objects (measured in X) will be, ASSUMING you know each objects mass and the distance between the two.
+And the gravitational constant. 
+
+If you wanted to figure out the Force, you would do what my old high school physics teacher would say: just plug and chug. Plug in the numbers you know, then chug through the equation.
+
+TODO: Add worked example 
+
+And it's not just knowing in the theoretical sense.
+We need to know as in be able to reliably measure each.  
+
 :::
+
+## Law of Gravitation Coded 
+
+$$F = G \frac{m_1 m_2}{r^2}$$
+
+```{.r}
+# Function 
+calculate_force <- function(m1, m2, r, g = 9.807){
+  numerator <- m1 * m2
+  denominator <- r*r
+  ans <- g * numerator * denominator 
+  ans
+}
+
+# Inputs
+output <- calculate_force(134, 354, 21, 9.807)
+
+# Output
+print(output)
+```
+
+:::{.notes}
+TODO: Worked Example
+
+:::
+
+## Input, Output
+
+Either way you write it, Newton's Law of Gravitation **predicts** exactly what will happen when a certain set of **conditions** and **assumptions** are met. 
+
+Does anyone know a set of conditions or assumptions where
+
+$$F = G \frac{m_1 m_2}{r^2}$$
+
+would not provide accurate estimations? 
+
+- $$E = mc^2$$
+
+## Laws Review
+
+TODO
+
+## Laws of Music Perception and Cognition
+
+> Think, pair, share: Turn to your partner and come up with as many cases from the world of music perception and cognition that you could create a model for. 
+
+For each question, list:
+
+* The input 
+* The output
+* What data would be needed to falsifiy the model 
+
+:::{.notes}
+Go through, ask people to share highest number and each set 
+:::
+
+## Possible Answers
+
+## Ordering 
+
+- Psychophysics, emotion, expectancy, memory, rubato performance, limits of human hearing, aesthetic preference
+
+Now going to ask you to take the list I have here on the screen, and to organise these in order from topics that you think are going to be most easy to comp up with computational models for (similar to physics examples) to ones that are least easy to model. 
+- One person should be ready to defend why this is the case. 
+
+## Reviewing I 
+
+- Just like other domains, possible to measure and make predictions on anything
+- But going to be harder not only because cognitive, but also music often deals with sensative cultural questions (what do we mean by emotions for example) and people differ. 
+- But (biased!) great thing about computational models is it forces us to put in what we think about the world
+
+How might this be done?
+
+## Guest Review Here 
+
+
+
+## Case Study Overview
+
+* Consonance 
+* Expectancy 
+* Memory 
+* Key Finding Algorithms
+* Performance 
+
+## Consonance
 
 
 

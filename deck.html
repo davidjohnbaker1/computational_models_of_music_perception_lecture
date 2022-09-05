@@ -23,6 +23,70 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="deck_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="deck_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -324,24 +388,30 @@
   <p class="author">David John Baker</p>
 </section>
 
-<section id="predicting-what-happens" class="slide level2">
-<h2>Predicting What Happens</h2>
+<section id="starting-with-a-question" class="slide level2">
+<h2>Starting with a Question</h2>
 <div class="column" style="width:65%;">
-<p>If I were to stand on top of the <a href="https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa">Leaning Tower of Pisa</a> and <a href="https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment">drop both a bowling ball and a marble</a> from the top at the same time…</p>
+<p>What are some famous <strong>scientific</strong> theories?</p>
+<p>Theory of …</p>
 <ul>
-<li class="fragment">What would happen?</li>
-<li class="fragment">What assumptions would have to be true for that to happen?</li>
-<li class="fragment">How do we know?</li>
+<li class="fragment">Evolution</li>
+<li class="fragment">Supply and Demand</li>
+<li class="fragment">Relativity</li>
+<li class="fragment">ITPRA – Musical Expectancy</li>
+<li class="fragment">BRECVEMA – Musical Emotions</li>
 </ul>
 </div>
 <div class="column" style="width:35%;">
 <p><img data-src="img/The_Leaning_Tower_of_Pisa_SB.jpeg.jpeg" class="absolute" style="top: 0px; left: 700px; "></p>
 </div>
 <aside class="notes">
+<p>I want to start with a question for the whole class, just to get an idea of people’s background and familiarity with the idea of theories, in the scientific sense.</p>
+<p>Can anyone give me the name of a some famous scientific theories? I want at least five of them. And bonus points if anyone can name any music related ones.</p>
+<p>And by theory I mean an explanation of the natural world that explains how or why the world is the way that it is.</p>
 <ul>
-<li>Read Slide</li>
-<li>Ask https://upload.wikimedia.org/wikipedia/commons/e/e8/Apollo_15_feather_and_hammer_drop.ogv</li>
+<li>GIVE Class moment to respond</li>
 </ul>
+<p>When done, click to review some of the ones you’d like to focus on in case class gets off track.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -354,16 +424,23 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predictions-formalized" class="slide level2">
-<h2>Predictions, Formalized</h2>
-<div class="column" style="width:50%;">
-
+<section id="scientific-theory" class="slide level2">
+<h2>Scientific Theory</h2>
+<div class="column" style="width:60%;">
+<p>A scientific theory is an explanation about the natural world that explains how or why the world is the way that it is.</p>
+<ul>
+<li class="fragment">Often make specific predictions about the world</li>
+<li class="fragment">Say <em><strong>what</strong></em> will happen <em><strong>when</strong></em> under what <em><strong>conditions</strong></em></li>
+<li class="fragment">What is one prediction offered by the theory of evolution?</li>
+</ul>
 </div>
-<div class="column" style="width:35%;">
-<p><img data-src="img/Pisa_experiment.png" class="absolute" style="top: 100px; left: 700px; "></p>
+<div class="column" style="width:40%;">
+<p><img data-src="img/The_Leaning_Tower_of_Pisa_SB.jpeg.jpeg" class="absolute" style="top: 0px; left: 700px; "></p>
 </div>
 <aside class="notes">
-<p>If you’re not familiar with the story, supposedly between 1589 and 1592, Galileo Galilei is said to have dropped two spheres of different mass from a top the Leaning Tower of Pisa in order to demonstrate that all objects fall with the same acceleration.</p>
+<p>Different than how the word <strong>theory</strong> is used in the context of <strong>music</strong>. We can return to that if you’d like.</p>
+<p>But what is important to be on the same page about in terms of definitions is… bullet points.</p>
+<p>And we as critically thinking intelligent humans deduce these types of predictions from reading the work of scientists such as Charles Darwin in books they write.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -375,6 +452,156 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="fact-laws-and-theories-i" class="slide level2">
+<h2>Fact, Laws, and Theories I</h2>
+<div class="column" style="width:60%;">
+<p>Scientific laws are not the same as scientific theories.</p>
+<ul>
+<li class="fragment">Theory: Explains how and why</li>
+<li class="fragment">Fact: Basic Observation</li>
+<li class="fragment">Law: Relationship between observations</li>
+<li class="fragment"><strong>Theories are used to explain and interpret facts</strong></li>
+</ul>
+</div>
+</section>
+<section id="fact-laws-and-theories-ii" class="slide level2">
+<h2>Fact, Laws, and Theories II</h2>
+<div class="column" style="width:60%;">
+<blockquote>
+<p>Think, pair, share: Turn to your neighbor and explain to them the difference between a fact, a law, and a theory. Take two minutues. Come up with an example from an example not yet mentioned in today’s lecture.</p>
+</blockquote>
+</div>
+</section>
+<section id="law-of-gravitation" class="slide level2">
+<h2>Law of Gravitation</h2>
+<p><span class="math display">\[F = G \frac{m_1 m_2}{r^2}\]</span></p>
+<p><span class="math inline">\(F\)</span>: Force</p>
+<p><span class="math inline">\(G\)</span>: Gravitational Constant</p>
+<p><span class="math inline">\(m_1\)</span>: Mass of Object 1</p>
+<p><span class="math inline">\(m_2\)</span>: Mass of Object 2</p>
+<p><span class="math inline">\(r\)</span>: Distance Between Object 1 and Object 2</p>
+<aside class="notes">
+<p>One of the examples that might have been brought up before is Newton’s law of gravity.</p>
+<p>For those unfamiliar, it’s a mathmatical formula that predicts what the force between two objects (measured in X) will be, ASSUMING you know each objects mass and the distance between the two. And the gravitational constant.</p>
+<p>If you wanted to figure out the Force, you would do what my old high school physics teacher would say: just plug and chug. Plug in the numbers you know, then chug through the equation.</p>
+<p>TODO: Add worked example</p>
+<p>And it’s not just knowing in the theoretical sense. We need to know as in be able to reliably measure each.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="law-of-gravitation-coded" class="slide level2">
+<h2>Law of Gravitation Coded</h2>
+<p><span class="math display">\[F = G \frac{m_1 m_2}{r^2}\]</span></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Function </span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>calculate_force <span class="ot">&lt;-</span> <span class="cf">function</span>(m1, m2, r, <span class="at">g =</span> <span class="fl">9.807</span>){</span>
+<span id="cb1-3"><a href="#cb1-3"></a>  numerator <span class="ot">&lt;-</span> m1 <span class="sc">*</span> m2</span>
+<span id="cb1-4"><a href="#cb1-4"></a>  denominator <span class="ot">&lt;-</span> r<span class="sc">*</span>r</span>
+<span id="cb1-5"><a href="#cb1-5"></a>  ans <span class="ot">&lt;-</span> g <span class="sc">*</span> numerator <span class="sc">*</span> denominator </span>
+<span id="cb1-6"><a href="#cb1-6"></a>  ans</span>
+<span id="cb1-7"><a href="#cb1-7"></a>}</span>
+<span id="cb1-8"><a href="#cb1-8"></a></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="co"># Inputs</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a>output <span class="ot">&lt;-</span> <span class="fu">calculate_force</span>(<span class="dv">134</span>, <span class="dv">354</span>, <span class="dv">21</span>, <span class="fl">9.807</span>)</span>
+<span id="cb1-11"><a href="#cb1-11"></a></span>
+<span id="cb1-12"><a href="#cb1-12"></a><span class="co"># Output</span></span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="fu">print</span>(output)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<aside class="notes">
+<p>TODO: Worked Example</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="input-output" class="slide level2">
+<h2>Input, Output</h2>
+<p>Either way you write it, Newton’s Law of Gravitation <strong>predicts</strong> exactly what will happen when a certain set of <strong>conditions</strong> and <strong>assumptions</strong> are met.</p>
+<p>Does anyone know a set of conditions or assumptions where</p>
+<p><span class="math display">\[F = G \frac{m_1 m_2}{r^2}\]</span></p>
+<p>would not provide accurate estimations?</p>
+<ul>
+<li><span class="math display">\[E = mc^2\]</span></li>
+</ul>
+</section>
+<section id="laws-review" class="slide level2">
+<h2>Laws Review</h2>
+<p>TODO</p>
+</section>
+<section id="laws-of-music-perception-and-cognition" class="slide level2">
+<h2>Laws of Music Perception and Cognition</h2>
+<blockquote>
+<p>Think, pair, share: Turn to your partner and come up with as many cases from the world of music perception and cognition that you could create a model for.</p>
+</blockquote>
+<p>For each question, list:</p>
+<ul>
+<li>The input</li>
+<li>The output</li>
+<li>What data would be needed to falsifiy the model</li>
+</ul>
+<aside class="notes">
+<p>Go through, ask people to share highest number and each set</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="possible-answers" class="slide level2">
+<h2>Possible Answers</h2>
+</section>
+<section id="ordering" class="slide level2">
+<h2>Ordering</h2>
+<ul>
+<li>Psychophysics, emotion, expectancy, memory, rubato performance, limits of human hearing, aesthetic preference</li>
+</ul>
+<p>Now going to ask you to take the list I have here on the screen, and to organise these in order from topics that you think are going to be most easy to comp up with computational models for (similar to physics examples) to ones that are least easy to model. - One person should be ready to defend why this is the case.</p>
+</section>
+<section id="reviewing-i" class="slide level2">
+<h2>Reviewing I</h2>
+<ul>
+<li>Just like other domains, possible to measure and make predictions on anything</li>
+<li>But going to be harder not only because cognitive, but also music often deals with sensative cultural questions (what do we mean by emotions for example) and people differ.</li>
+<li>But (biased!) great thing about computational models is it forces us to put in what we think about the world</li>
+</ul>
+<p>How might this be done?</p>
+</section>
+<section id="guest-review-here" class="slide level2">
+<h2>Guest Review Here</h2>
+</section>
+<section id="case-study-overview" class="slide level2">
+<h2>Case Study Overview</h2>
+<ul>
+<li>Consonance</li>
+<li>Expectancy</li>
+<li>Memory</li>
+<li>Key Finding Algorithms</li>
+<li>Performance</li>
+</ul>
+</section>
+<section id="consonance" class="slide level2">
+<h2>Consonance</h2>
 <div class="footer footer-default">
 
 </div>
