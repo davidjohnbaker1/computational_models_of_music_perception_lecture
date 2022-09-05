@@ -3,6 +3,8 @@
 This respository contains materials for a one hour lecture on the topic of computational models of music perception and cognition.
 The level of the course is aimed at upper level undergraduate and graduate students.
 
+* [Link to Repository Pages](https://davidjohnbaker1.github.io/computational_models_of_music_perception_lecture/)
+
 By the end of the lecture, the students should be able to:
 
 1. Explain the difference between descriptive, predictive, and explanatory models of music perception.
