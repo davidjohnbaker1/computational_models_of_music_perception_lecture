@@ -141,7 +141,7 @@ van der Weij, B., Pearce, M. T., & Honing, H. (2017). A Probabilistic Model of M
 
 Vuust, P., & Witek, M. A. G. (2014). Rhythmic complexity and predictive coding: A novel approach to modeling rhythm and meter perception in music. Frontiers in Psychology, 5. https://doi.org/10.3389/fpsyg.2014.01111
 
-Wiggins, G. A. (2007). Models of musical similarity. Musicae Scientiae, 11(1_suppl), 315–338. https://doi.org/10.1177/102986490701100112
+**Wiggins, G. A. (2007). Models of musical similarity. Musicae Scientiae, 11(1_suppl), 315–338. https://doi.org/10.1177/102986490701100112**
 
 Wiggins, G. A. (2010). Cue Abstraction, Paradigmatic Analysis and Information Dynamics: Towards Music Analysis by Cognitive Model. Musicae Scientiae, 14(2_suppl), 307–331. https://doi.org/10.1177/10298649100140S217
 
