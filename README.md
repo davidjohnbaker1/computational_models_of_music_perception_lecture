@@ -1,10 +1,10 @@
 # Computational Models of Music Perception 
 
-This repository contains materials for an N part lecture on the topic of computational models of music perception and cognition.
-The lectures are broken down into the following sections that can be put together given the level of the students
+This repository contains materials for an 3 part lecture on the topic of computational models of music perception and cognition.
+The lectures are broken down into the following sections that can be put together given the level of the students:
 
 * What are computational models of music? Why do we need them? (45 minutes, undergrad)
-* Hands on Activity (mixed review)
+* Hands on Activity (30 minutes)
 * History of computational models of music perception (45 minutes, graduate)
 
 The level of the course is aimed at upper level undergraduate and graduate students.
