@@ -1,210 +1,91 @@
 # Computational Models of Music Perception 
 
-This repository contains materials for a one hour lecture on the topic of computational models of music perception and cognition.
+This repository contains materials for an N part lecture on the topic of computational models of music perception and cognition.
+The lectures are broken down into the following sections that can be put together given the level of the students
+
+* What are computational models of music? Why do we need them? (45 minutes, undergrad)
+* Hands on Activity (mixed review)
+* History of computational models of music perception (45 minutes, graduate)
+
 The level of the course is aimed at upper level undergraduate and graduate students.
 
 * [Link to Repository Pages](https://davidjohnbaker1.github.io/computational_models_of_music_perception_lecture/)
 
-By the end of the lecture, the students should be able to:
-
-1. Explain the difference between descriptive, predictive, and explanatory models of music perception.
-2. Describe how a computational model of music perception is tested
-3. Use Guest and Martin taxonomy to provide critical commentary on models they read about in the literature 
-
-
-## Outline 
-
-- What is a model?
-    + Formalisation of the world that says what should happen when under specific conditions
-    + Example from physics => Speed of object when it is thrown off building 
-    + Leaning tower of Pisa 
-    + Benefits: very specific, very easy to scrutinise 
-        + Ask: 
-    + Drawbacks: Very specific, very easy to scrutennise 
-        + Ask: What is missing in this model?
-        + Ask: How can it be proven wrong? 
-        + Define: Falsifiablity?
-- How do we arrive at a model?
-    + Discover idea: Cosmology A 
-        + There are laws of the universe, it is up to use humans to figure them out
-    + Learn idea: Cosmology B 
-        + There is data in the world, it is us to us humans to describe the world via reductions
-    + ASK: What is one benefit and con for each way of thinking about the world?
-    + ASK: What would this mean in our physics example? 
-        + Drop lots of balls from buildings at various heights? 
-        + Come up with law, test it against data
-        + need both MODEL and DATA
-        + What does it mean for a model to be good?
-- What are the equivlient models of music perception?
-    + ASK: What is set of musical behaviors where we could provide similar guesss of what happens under what conditions?
-    + Borrow from PH 
-    + Emotions, Memory for Melodies , Timbre perception, Entraiment, Limits of Human Hearing, Expectancy Responses in Brain 
-- Case Studies
-    + Harmony: Consonance, dissonance, learned 
-    + Expectation: IDyOM and Temperly 
-    + Memory: Baker? 
+By the end of the lecture, the students should be able to answer:
 
+1. Why would a music perception research want to use a computational model in their own program of research?
+2. What is the difference between a statistical and computational model?
+3. Can you list an example of an assumption that a modeler might need to make in order to create a computational model of music perception?
+4. What are some problems that concern ground truth and musical data?
+5. What are three examples of questions that have been investigated with computational models in music perception?
 
-## Reading
+## Lesson Outline 
 
+* [Link to the Slide Deck](https://docs.google.com/presentation/d/1FjANZunBgmTTE68TVht4Kl1tdbevDRlsuQ5_PWd0o9M/edit?usp=sharing)
 
-### Required 
+> Email David John Baker for access to deck, audio, and score files if want to edit, copy or change. 
 
-* Guest and Martin 2021
-* Temperly Chapter
-* Harrison Chords
-* Honing COmputational 
-* Baker Pre-Print 
+### What Are Computational Models of Music Perception and Why Do We Need Them?
 
+> Lesson Notes Here 
 
+### Activity: Key Finding with Melody
 
-### Further 
+> Lesson Notes Here 
 
+### Survey and Review of Literature 
 
+> Lesson Notes Here 
 
+## References 
 
-## Scratch
+* [Find Link to PDFs Here](https://github.com/davidjohnbaker1/computational_models_of_music_perception_lecture/tree/main/pdf)
 
-- Today talking about world of computational models of music perception and cognition
-- If coming from a music background, need to make sure were on the same page 
-- unlike temperly quote 
+Cancino-Chacón, C. E., Grachten, M., Goebl, W., & Widmer, G. (2018). Computational Models of Expressive Music Performance: A Comprehensive and Critical Review. Frontiers in Digital Humanities, 5, 25. https://doi.org/10.3389/fdigh.2018.00025
 
+Cannon, J. (2021). Expectancy-based rhythmic entrainment as continuous Bayesian inference. PLOS Computational Biology, 17(6), e1009025. https://doi.org/10.1371/journal.pcbi.1009025
 
-- Lively area and community of people who are interested in it
-- getting in is always difficult
-- so going to give you my version 
+Desain, P., & Honing, H. (1999). Computational Models of Beat Induction: The Rule-Based Approach. Journal of New Music Research, 28(1), 29–42. https://doi.org/10.1076/jnmr.28.1.29.3123
 
-- First task is to get on board with terms
-- computational model 
-- let's start first with model
-- what is it, why do we need it? 
-- well, need to start higher up 
+Desain, P., Honing, H., Vanthienen, H., & Windsor, L. (1998). Computational Modeling of Music Cognition: Problem or Solution? Music Perception, 16(1), 151–166. https://doi.org/10.2307/40285783
 
-- As scientists, (not data scientists or engineers) one of our goals is to explain why things happen
+Deutsch, D., & Feroe, J. (1981). The internal representation of pitch sequences in tonal music. Psychological Review, 88(6), 503–522. https://doi.org/10.1037/0033-295X.88.6.503
 
-- As scientists, we want to know about how the universe works.
-- And one way we judge how good we are at this is through our ability to describe, predict, and explain. 
+Eerola, T. (2012). Modeling Listeners’ Emotional Response to Music. Topics in Cognitive Science, 4(4), 607–624. https://doi.org/10.1111/j.1756-8765.2012.01188.x
 
-Pisa Example
-  + Formalisation of model 
-  + use to transition to model of music perception and cognition 
-  + Ask question: What types of problems are best suited for computational models? 
-  + Rank order 
+Farrell, S., & Lewandowsky, S. (2018). Computational modeling of cognition and behavior. Cambridge University Press.
 
-Meterologist Example
-  + Severity of Prediction 
-  
-Use GUEST framework
-  
-Steps to Process:
-  + Formalise via Computation 
-  + Extract author from thoughts
-  + Your thoughts run on someone else's computer 
-  + Compare predictions of your theory to empirical data
-  + Learn from match/mismatch of theory + data 
-  
-Have both subjective and objective 
+Guest, O., & Martin, A. E. (n.d.). How Computational Modeling Can Force Theory Building in Psychological Science. 14.
 
-Case Study: Consonance  (10 Minutes/ 1 Slide per Minute )
-  + Taken from Harrison and Pearce (2020)
-  1. Consonance => Subjective rating of pleasantness 
-    + examples with interface 
-  2. Roughness
-  3. Harmonicity 
-  4. Learned 
-  5. Input(Chord) => Score (show R)
-  6. Figures  
-  7. So What? 
-  
-Case Study 2: Rhythm  (10 Minutes)
+Harrison, P. M. C., & Pearce, M. T. (2020). Simultaneous consonance in music perception and composition. Psychological Review, 127(2), 216–244. https://doi.org/10.1037/rev0000169
 
-Case Study 3: Melodic Expectation (10 Minutes)
-  + Meyer 
-  + Narmour 
-  + Margulis 
-  + Pearce 
-  + Temperly 
-  
-  + Baker on Memory 
+Honing, H. (2006). Computational Modeling of Music Cognition: A Case Study on Model Selection. Music Perception, 23(5), 365–376. https://doi.org/10.1525/mp.2006.23.5.365
 
+Kim, S.-G. (2022). On the encoding of natural music in computational models and human brains. Frontiers in Neuroscience, 16, 928841. https://doi.org/10.3389/fnins.2022.928841
 
-  
+Large, E. W., Herrera, J. A., & Velasco, M. J. (2015). Neural Networks for Beat Perception in Musical Rhythm. Frontiers in Systems Neuroscience, 9. https://doi.org/10.3389/fnsys.2015.00159
 
-  
+Margulis, E. H. (2005). A Model of Melodic Expectation. Music Perception, 22(4), 663–714. https://doi.org/10.1525/mp.2005.22.4.663
 
-- Quintessential example of our able to predict what happens comes from dropping bowling balls.
--
+Mullensiefen, D., & Wiggins, G. (n.d.). Sloboda and Parker’s recall paradigm for melodic memory: A new, computational perspective. 26.
 
-- For example, take meteorologist.
-- Their job is to be able to predict the weather.
+Pearce, M. T. (2018). Statistical learning and probabilistic prediction in music cognition: Mechanisms of stylistic enculturation: Enculturation: statistical learning and prediction. Annals of the New York Academy of Sciences, 1423(1), 378–395. https://doi.org/10.1111/nyas.13654
 
--------------------
+Povel, D.-J., & Essens, P. (1985). Perception of Temporal Patterns. Music Perception, 2(4), 411–440. https://doi.org/10.2307/40285311
 
-- for example, law of gravity 
+Rohrmeier, M., & Rebuschat, P. (2012). Implicit Learning and Acquisition of Music. Topics in Cognitive Science, 4(4), 525–553. https://doi.org/10.1111/j.1756-8765.2012.01223.x
 
+Sadakata, M., Desain, P., & Honing, H. (2006). The Bayesian Way to Relate Rhythm Perception and Production. Music Perception, 23(3), 269–288. https://doi.org/10.1525/mp.2006.23.3.269
 
+Temperley, D. (2013). Computational Models of Music Cognition. In The Psychology of Music (pp. 327--368). Elsevier. https://doi.org/10.1016/B978-0-12-381460-9.00021-3
 
-So in that spirit, lets stop to think about how this might be applied not in physics, but in music perception and cognition.
+van der Steen, M. C. (Marieke), & Keller, P. E. (2013). The ADaptation and Anticipation Model (ADAM) of sensorimotor synchronization. Frontiers in Human Neuroscience, 7. https://doi.org/10.3389/fnhum.2013.00253
 
-Think pair share: turn to a friend and come up with as many different questions of music perception and cognition that you could computational model. OK to use the readings, most wins. You have three minutes. 
+van der Weij, B., Pearce, M. T., & Honing, H. (2017). A Probabilistic Model of Meter Perception: Simulating Enculturation. Frontiers in Psychology, 8, 824. https://doi.org/10.3389/fpsyg.2017.00824
 
-Count, see who has most, go through
+Vuust, P., & Witek, M. A. G. (2014). Rhythmic complexity and predictive coding: A novel approach to modeling rhythm and meter perception in music. Frontiers in Psychology, 5. https://doi.org/10.3389/fpsyg.2014.01111
 
-Great, should have list that might include things like..
+Wiggins, G. A. (2007). Models of musical similarity. Musicae Scientiae, 11(1_suppl), 315–338. https://doi.org/10.1177/102986490701100112
 
-- LIST HERE
-
-
-
-
-Reviewing
-https://pmcharrison.github.io/intro-to-music-and-science/computational-music-psychology.html
-
-Now going to go through a few case study examples where talk through some examples from the  literature
-
-- Harmony 
-- Expectancy 
-- Memory 
-- Key Finding Algorithms 
-- Performance 
-
-Now when do this, going to see many parallels to other parts of science
-We don't just end up always getting a perfect solution, sometimes impossible
-And with complex phenomena, not always going to be one or the other.
-
-But what this does is allows us to compare theories
-so just like baddely vs cowan or origins.
-
-Borrow from reading from Guest and Martin to adopt specific terms 
-
-* Picture here from their paper 
-
-Other side:
-
-- formalize in terms of computational model (your thoughts on other's computer)
-- write out a computer program to make it so your thoughts run on someone else's computer
-- collect data
-- compare your model predictions with data
-- think, discuss, iterate 
-
-{Case Studies}
-
-Other Applications
-
-Have described many cognitive models here (since this is a cognitive class)
-Also mention that this format very simlar to the whole MIR/MIRex thing.
-
-Interestingly this global benchmarking of models does not exist with cognitive people.
-
-
-
-
-
-
-
-
-
-
-
-
+Wiggins, G. A. (2010). Cue Abstraction, Paradigmatic Analysis and Information Dynamics: Towards Music Analysis by Cognitive Model. Musicae Scientiae, 14(2_suppl), 307–331. https://doi.org/10.1177/10298649100140S217
 
