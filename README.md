@@ -27,15 +27,71 @@ By the end of the lecture, the students should be able to answer:
 
 ### What Are Computational Models of Music Perception and Why Do We Need Them?
 
-> Lesson Notes Here 
+The opening section is either meant to be a slow introduction to computational models for undergraduate students who have not been exposed to this type of research before or a quicker introduction for graduate students who have some degree of familarity with this. 
+
+The lesson assumes at least **some** of the students in the class have either music literacy (not all) and a general interest in music perception and cognition. 
+
+The main purpose of the **Computational Model** slides is to introduce idea that
+
+1. Computation is a much more general term than most people think (people can be computers)
+2. Models are not the real world, nor can they be
+
+After a brief discussion of making sure everyone is on shared language, we move to thinking about why we might want to make models. 
+
+The point to make sure is clearly understood is that models allow for ideas to stand independelty, formalized, and ready to be critiqued by others.
+
+Before going deeper, an example is provided where a model might predict easy or hard melodies.
+The purpose of this is to make clear that a model follows **input output** format. 
+This leads to a discussion of **ground truth** and what is meant by that in this context. 
+
+After giving this difficulty of melody example, we then address several new terms
+
+* Statistical Model
+* Computational Model 
+
+A check for understanding/synthesis of materials is done with a Think, Pair, Share with Wiggins 2007 quote on the deck. 
+
+If time permits, a plenary activity asking students to use all terms to discuss a possible research question in music perception allows for a final check for understanding before the break. 
 
 ### Activity: Key Finding with Melody
 
-> Lesson Notes Here 
+The group activity is introduced second to break more heavy, technical discussion. 
+
+Students are tasked with creating their own key finding algorithm for melodies.
+A brief primer is given of what is meant by key in this context (Name + Mode).
+Text here was written assuming students have near mimimal understanding of music notation. 
+Audio examples are provided for each excerpt. 
+
+The task is explained with an example of how this might work.
+
+> ALERT! I have not tried this in practice yet and do not know if the instructions are clear enough or the task is too complicated
+
+Structure the time to be 
+
+* Ten minutes to work on coming up with an algoritm 
+* Ten minues to share 
+* Time to assess each model with a test melody 
+
+Several plenary review questions are given to capture some higher level points that will hopefully emerge from the task. 
 
 ### Survey and Review of Literature 
 
-> Lesson Notes Here 
+The survey and review of literature attempts to give a high level, case study inspired understanding of this area of research. 
+The first several slides review the history of this type of research. 
+
+Then three case studies are presented looking at 
+
+* Consonance and Dissonance
+* IDyOM + Meyer 
+* Beat Induction
+
+These three topic areas were chosen due to my familiarity with the programs of research.
+
+**BOLDED** papers are explicitly referenced in the lecture slides. 
+
+* [ ] TODO: ADD Beat Perception Papers after adding to deck 
+
+A final plenary/learning goals check is at the end of the lesson. 
 
 ## References 
 
@@ -47,7 +103,7 @@ Cannon, J. (2021). Expectancy-based rhythmic entrainment as continuous Bayesian 
 
 Desain, P., & Honing, H. (1999). Computational Models of Beat Induction: The Rule-Based Approach. Journal of New Music Research, 28(1), 29–42. https://doi.org/10.1076/jnmr.28.1.29.3123
 
-Desain, P., Honing, H., Vanthienen, H., & Windsor, L. (1998). Computational Modeling of Music Cognition: Problem or Solution? Music Perception, 16(1), 151–166. https://doi.org/10.2307/40285783
+**Desain, P., Honing, H., Vanthienen, H., & Windsor, L. (1998). Computational Modeling of Music Cognition: Problem or Solution? Music Perception, 16(1), 151–166. https://doi.org/10.2307/40285783**
 
 Deutsch, D., & Feroe, J. (1981). The internal representation of pitch sequences in tonal music. Psychological Review, 88(6), 503–522. https://doi.org/10.1037/0033-295X.88.6.503
 
@@ -55,9 +111,9 @@ Eerola, T. (2012). Modeling Listeners’ Emotional Response to Music. Topics in 
 
 Farrell, S., & Lewandowsky, S. (2018). Computational modeling of cognition and behavior. Cambridge University Press.
 
-Guest, O., & Martin, A. E. (n.d.). How Computational Modeling Can Force Theory Building in Psychological Science. 14.
+**Guest, O., & Martin, A. E. (2021). How Computational Modeling Can Force Theory Building in Psychological Science. 14.**
 
-Harrison, P. M. C., & Pearce, M. T. (2020). Simultaneous consonance in music perception and composition. Psychological Review, 127(2), 216–244. https://doi.org/10.1037/rev0000169
+**Harrison, P. M. C., & Pearce, M. T. (2020). Simultaneous consonance in music perception and composition. Psychological Review, 127(2), 216–244. https://doi.org/10.1037/rev0000169**
 
 Honing, H. (2006). Computational Modeling of Music Cognition: A Case Study on Model Selection. Music Perception, 23(5), 365–376. https://doi.org/10.1525/mp.2006.23.5.365
 
@@ -69,7 +125,7 @@ Margulis, E. H. (2005). A Model of Melodic Expectation. Music Perception, 22(4),
 
 Mullensiefen, D., & Wiggins, G. (n.d.). Sloboda and Parker’s recall paradigm for melodic memory: A new, computational perspective. 26.
 
-Pearce, M. T. (2018). Statistical learning and probabilistic prediction in music cognition: Mechanisms of stylistic enculturation: Enculturation: statistical learning and prediction. Annals of the New York Academy of Sciences, 1423(1), 378–395. https://doi.org/10.1111/nyas.13654
+**Pearce, M. T. (2018). Statistical learning and probabilistic prediction in music cognition: Mechanisms of stylistic enculturation: Enculturation: statistical learning and prediction. Annals of the New York Academy of Sciences, 1423(1), 378–395. https://doi.org/10.1111/nyas.13654**
 
 Povel, D.-J., & Essens, P. (1985). Perception of Temporal Patterns. Music Perception, 2(4), 411–440. https://doi.org/10.2307/40285311
 
