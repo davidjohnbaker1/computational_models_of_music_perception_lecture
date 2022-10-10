@@ -15,7 +15,7 @@ The level of the course is aimed at upper level undergraduate and graduate stude
 
 By the end of the lecture, the students should be able to answer:
 
-1. Why would a music perception research want to use a computational model in their own program of research?
+1. Why would a music perception researcher want to use a computational model in their own program of research?
 2. What is the difference between a statistical and computational model?
 3. Can you list an example of an assumption that a modeler might need to make in order to create a computational model of music perception?
 4. What are some problems that concern ground truth and musical data?
