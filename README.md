@@ -103,6 +103,8 @@ Cancino-Chacón, C. E., Grachten, M., Goebl, W., & Widmer, G. (2018). Computatio
 
 Cannon, J. (2021). Expectancy-based rhythmic entrainment as continuous Bayesian inference. PLOS Computational Biology, 17(6), e1009025. https://doi.org/10.1371/journal.pcbi.1009025
 
+Collins, T., Tillmann, B., Barrett, F. S., Delbé, C., & Janata, P. (2014). A combined model of sensory and cognitive representations underlying tonal expectations in music: From audio signals to behavior. Psychological Review, 121(1), 33-65. doi: 10.1037/a0034695
+
 Desain, P., & Honing, H. (1999). Computational Models of Beat Induction: The Rule-Based Approach. Journal of New Music Research, 28(1), 29–42. https://doi.org/10.1076/jnmr.28.1.29.3123
 
 **Desain, P., Honing, H., Vanthienen, H., & Windsor, L. (1998). Computational Modeling of Music Cognition: Problem or Solution? Music Perception, 16(1), 151–166. https://doi.org/10.2307/40285783**
