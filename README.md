@@ -11,6 +11,8 @@ The level of the course is aimed at upper level undergraduate and graduate stude
 
 * [Link to Repository Pages](https://davidjohnbaker1.github.io/computational_models_of_music_perception_lecture/)
 
+* [Link to Slow Talk Through the Deck](https://www.youtube.com/watch?v=6SNX6W_B_lE)
+
 By the end of the lecture, the students should be able to answer:
 
 1. Why would a music perception research want to use a computational model in their own program of research?
